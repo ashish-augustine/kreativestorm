@@ -1,7 +1,10 @@
 * {
   margin: 0;
 }
-
+@font-face {
+  font-family: "RobotoLightItalic";
+  src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+}
 .sec1 {
   background-color: #1f2937;
   display: flex;
@@ -36,4 +39,8 @@
   padding: 5px 20px;
   margin-top: 10px;
   border-radius: 5px;
+}
+
+.quote {
+  font-family: "RobotoLightItalic";
 }
