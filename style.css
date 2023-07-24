@@ -5,6 +5,10 @@
   font-family: "RobotoLightItalic";
   src: url(fonts/Roboto/Roboto-LightItalic.ttf);
 }
+@font-face {
+  font-family: "RobotoBold";
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
 .sec1 {
   background-color: #1f2937;
   display: flex;
@@ -49,6 +53,6 @@
   padding: 200px 300px;
 }
 .quote div {
-  font-weight: bold;
+  font-family: "RobotoBold";
   text-align: right;
 }
