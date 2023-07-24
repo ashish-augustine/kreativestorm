@@ -3,11 +3,11 @@
 }
 @font-face {
   font-family: "RobotoLightItalic";
-  src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+  src: url(fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
 }
 @font-face {
   font-family: "RobotoBold";
-  src: url(fonts/Roboto/Roboto-Bold.ttf);
+  src: url(fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
 .sec1 {
   background-color: #1f2937;
@@ -46,13 +46,14 @@
 }
 
 .quote {
-  font-family: "RobotoLightItalic";
+  font-family: "RobotoLightItalic", sans-serif; 
   background-color: #e5e7eb;
   font-size: 36px;
   color: #1f2937;
   padding: 200px 350px;
 }
 .quote div {
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", sans-serif;
+  font-weight: bold;
   text-align: right;
 }
