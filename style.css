@@ -104,7 +104,8 @@ a {
 .image-grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
-  gap: 10px; /* Adjust this value to set the spacing between images */
+  gap: 30px; /* Adjust this value to set the spacing between images */
+  padding: 30px;
 }
 
 /* Style for each image */
@@ -116,3 +117,17 @@ a {
   float: right;
 }
 /* Ashish Augustine */
+
+footer {
+  height: 10vh;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
