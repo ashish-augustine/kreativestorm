@@ -1,3 +1,4 @@
+/* Ashish Augustine */
 * {
   margin: 0;
 }
@@ -9,6 +10,44 @@
   font-family: "RobotoBold";
   src: url(fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
+/* Ashish Augustine */
+
+/*copied from jo*/
+nav {
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#coDet {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: inherit;
+  width: 300px;
+  align-items: center;
+  flex-grow: 1;
+  padding: 5px;
+}
+.navList {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #e5e7eb;
+}
+* {
+  margin: 0;
+}
+/*copied from jo*/
 .sec1 {
   background-color: #1f2937;
   display: flex;
@@ -44,7 +83,7 @@
   margin-top: 10px;
   border-radius: 5px;
 }
-
+/* Ashish Augustine */
 .quote {
   font-family: "RobotoLightItalic", sans-serif;
   background-color: #e5e7eb;
@@ -56,3 +95,24 @@
   font-family: "RobotoBold", sans-serif;
   text-align: right;
 }
+
+.title {
+  padding: 2em;
+}
+
+/* Set the container to be a grid layout */
+.image-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Adjust this value to set the spacing between images */
+}
+
+/* Style for each image */
+.image-grid-item img {
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+}
+.buy {
+  float: right;
+}
+/* Ashish Augustine */
