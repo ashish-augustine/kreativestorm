@@ -1,23 +1,27 @@
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+    src: url(../Roboto.zip);
   }
   
 #top-nav{
     background-color: #1f2937;
     font-family: "Roboto",sans-serif;
     font-size: 24px;
+    font-weight: 700;
     color: #f9faf8;
     display: flex;
     justify-content:space-between;
 }
 
-.navList,
-.navList.a:link {
-    width: 300px;
-    font-size: 18px;
-    color: #e5e7eb;
+.navList {
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+a:link {
+    font-size: 18px;
+    font-weight:300;
+    color: #e5e7eb;
 }
