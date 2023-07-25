@@ -91,12 +91,15 @@ a {
 }
 
 footer{
-  height: 6vh;
+  height: 10vh;
   background-color: #1f2937;
   color: #e5e7eb;
   font-family: "Roboto";
   font-weight:300;
   font-size: 18px;
   display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-around;
   flex-direction: column;
 }
