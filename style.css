@@ -103,3 +103,34 @@ footer{
   justify-content: space-around;
   flex-direction: column;
 }
+
+#blogPg{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content:space-around;  */
+}
+.posts{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 70%;
+}
+article{
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+}
+.blogImg{
+  height: 250px;
+}
+
+aside {
+  width: 20%;
+  padding: 15px;
+  /* margin: 10px; */
+  /* float: right; */
+  /* align-items:end; */
+  font-style: italic;
+  background-color: lightgray;
+}
