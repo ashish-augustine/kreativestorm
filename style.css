@@ -1,7 +1,11 @@
 @font-face {
-    font-family: "Roboto";
-    src: url(../Roboto.zip);
-  }
+  font-family: "RobotoLightItalic";
+  src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
   
 #top-nav{
     background-color: #1f2937;
@@ -12,7 +16,6 @@
     display: flex;
     justify-content:space-between;
 }
-
 .navList {
     width: 500px;
     display: flex;
@@ -24,4 +27,55 @@ a:link {
     font-size: 18px;
     font-weight:300;
     color: #e5e7eb;
+}
+* {
+  margin: 0;
+}
+
+.sec1 {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  padding: 5em 7em;
+  justify-content: center;
+}
+.img {
+  height: 300px;
+  margin-left: 50px;
+}
+.htext {
+  width: 400px;
+}
+.hmain {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 0;
+}
+.hsec {
+  margin-top: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+.btn {
+  text-decoration: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  padding: 5px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.quote {
+  font-family: "RobotoLightItalic";
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 200px 350px;
+}
+.quote div {
+  font-family: "RobotoBold";
+  text-align: right;
 }
