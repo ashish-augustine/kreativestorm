@@ -1,23 +1,30 @@
+/* Ashish Augustine */
+* {
+  margin: 0;
+}
 @font-face {
   font-family: "RobotoLightItalic";
   src: url(fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
 }
 @font-face {
-  font-family: "RobotoLight";
-  src: url(fonts/Roboto/Roboto-Light.ttf) format("truetype");
-}
-@font-face {
   font-family: "RobotoBold";
   src: url(fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
+@font-face {
+  font-family: "RobotoLight";
+  src: url(fonts/Roboto/Roboto-Light.ttf) format("truetype");
+}
+/* Ashish Augustine */
+
+/*copied from jo*/
 nav {
-    background-color: #1f2937;
-    font-family: "RobotoBold",sans-serif;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#coDet{
+#coDet {
   font-size: 24px;
   font-weight: 700;
   color: #f9faf8;
@@ -29,21 +36,22 @@ nav {
   padding: 5px;
 }
 .navList {
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 a {
-    font-size: 18px;
-    font-weight:300;
-    color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+  color: #e5e7eb;
 }
 * {
   margin: 0;
 }
+/*copied from jo*/
 .sec1 {
   background-color: #1f2937;
   display: flex;
@@ -51,7 +59,7 @@ a {
   padding: 5em 7em;
   justify-content: center;
 }
-.head-img {
+.img {
   height: 300px;
   margin-left: 50px;
 }
@@ -79,16 +87,16 @@ a {
   margin-top: 10px;
   border-radius: 5px;
 }
-
+/* Ashish Augustine */
 .quote {
-  font-family: "RobotoLightItalic";
+  font-family: "RobotoLightItalic", sans-serif;
   background-color: #e5e7eb;
   font-size: 36px;
   color: #1f2937;
-  padding: 200px 350px;
+  padding: 150px 350px;
 }
 .quote div {
-  font-family: "RobotoBold";
+  font-family: "RobotoBold", sans-serif;
   text-align: right;
 }
 
@@ -122,112 +130,18 @@ a {
   border-radius: 12px;
   cursor: pointer;
 }
-footer{
+/* Ashish Augustine */
+
+footer {
   height: 10vh;
   background-color: #1f2937;
   color: #e5e7eb;
   font-family: "Roboto";
-  font-weight:300;
+  font-weight: 300;
   font-size: 18px;
   display: flex;
   /* flex-direction: row; */
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-}
-
-#blogPg{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 80vw;
-  margin: auto;
-}
-
-#blogPg h2{
-  font-size: 30px;
-  text-align: center;
-  line-height: 1.5em;
-}
-.posts{
-  display: flex;
-  margin: auto;
-  padding-top: 20px;
-  width: 70%;
-}
-.posts article{
-  margin: 10px;
-  padding: 10px;
-  width: 500px;
-  background-color: #e5e7eb;
-}
-
-blockquote.quote{
-  width: 20vw;
-  margin: auto;
-  padding: 50px 300px;
-  color: #1f2937;
-  word-wrap: inherit;
-}
-.blogImg{
-  height: 250px;
-  max-width: 100%;
-  margin: auto;
-  border-radius: 5px;
-}
-.blgDiv{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  /* width: max-content; */
-  justify-content:space-evenly;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 10px;
-}
-
-aside {
-  width: 20%;
-  padding: 15px;
-  font-size: 18px;
-  font-style: italic;
-  background-color: #e5e7eb;
-  color: #1f2937;
-}
-
-aside a,
-aside li{
-  list-style: none;
-  color: #1f2937;
-  line-height: 1.8em;
-}
-.abt{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-.main-header{
-  font-size: 36px;
-  font-weight: 800;
-  color: #1f2937;
-  text-align: center;
-  margin: 20px;
-}
-.team-name{
-  font-size: 24px;
-  color: #1f2937;
-  margin: 20px;
-}
-.abt img{
-  height: 360px;
-  width: auto;
-  margin: 10px;
-}
-.abt-text{
-  margin: 10px;
-  width: 540px;
-  justify-content: center;
-  color: #1f2937 ;
 }
