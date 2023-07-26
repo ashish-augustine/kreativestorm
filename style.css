@@ -3,10 +3,13 @@
   src: url(fonts/Roboto/Roboto-LightItalic.ttf);
 }
 @font-face {
+  font-family: "RobotoRegular";
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
   font-family: "RobotoBold";
   src: url(fonts/Roboto/Roboto-Bold.ttf);
 }
-  
 nav {
     background-color: #1f2937;
     font-family: "RobotoBold",sans-serif;
@@ -41,7 +44,6 @@ a {
 * {
   margin: 0;
 }
-
 .sec1 {
   background-color: #1f2937;
   display: flex;
@@ -49,7 +51,7 @@ a {
   padding: 5em 7em;
   justify-content: center;
 }
-.img {
+.head-img {
   height: 300px;
   margin-left: 50px;
 }
@@ -89,7 +91,6 @@ a {
   font-family: "RobotoBold";
   text-align: right;
 }
-
 footer{
   height: 10vh;
   background-color: #1f2937;
@@ -160,11 +161,41 @@ aside {
   color: #1f2937;
 }
 
-aside a, 
+aside a,
 aside li{
   list-style: none;
   color: #1f2937;
-  
+
   line-height: 1.5em;
+}
+.abt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-header{
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+  margin: 20px;
+}
+.team-name{
+  font-size: 24px;
+  color: #1f2937;
+  margin: 20px;
+}
+.abt img{
+  height: 360px;
+  width: auto;
+  margin: 10px;
+}
+.abt-text{
+  margin: 10px;
+  width: 540px;
+  justify-content: center;
+  color: #1f2937 ;
 }
 
