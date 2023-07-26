@@ -10,6 +10,10 @@
   font-family: "RobotoBold";
   src: url(fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
+@font-face {
+  font-family: "RobotoRegular";
+  src: url(fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
 nav {
     background-color: #1f2937;
     font-family: "RobotoBold",sans-serif;
@@ -43,6 +47,7 @@ a {
 }
 * {
   margin: 0;
+  font-family: "RobotoRegular";
 }
 .sec1 {
   background-color: #1f2937;
@@ -78,6 +83,11 @@ a {
   padding: 5px 20px;
   margin-top: 10px;
   border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background-color;
+}
+.btn:hover{
+  background-color: #21498d;
 }
 
 .quote {
@@ -226,7 +236,7 @@ aside li{
   margin: 10px;
 }
 .abt-text{
-  margin: 10px;
+  margin: 20px;
   width: 540px;
   justify-content: center;
   color: #1f2937 ;
