@@ -4,15 +4,15 @@
 }
 @font-face {
   font-family: "RobotoLightItalic";
-  src: url(fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
+  src: url(./fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
 }
 @font-face {
   font-family: "RobotoBold";
-  src: url(fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+  src: url(./fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "RobotoLight";
-  src: url(fonts/Roboto/Roboto-Light.ttf) format("truetype");
+  src: url(./fonts/Roboto/Roboto-Light.ttf) format("truetype");
 }
 /* Ashish Augustine - finish*/
 
@@ -43,10 +43,13 @@ nav {
   justify-content: space-around;
 }
 
-a {
+.navList a,
+footer a {
+  font-family: "RobotoLight";
   font-size: 18px;
   font-weight: 300;
   color: #e5e7eb;
+  text-decoration: none;
 }
 * {
   margin: 0;
@@ -141,7 +144,6 @@ footer {
   font-weight: 300;
   font-size: 18px;
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
@@ -183,8 +185,11 @@ blockquote.quote{
 .blogImg{
   height: 250px;
   max-width: 100%;
-  margin: auto;
   border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 .blgDiv{
   display: flex;
