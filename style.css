@@ -1,4 +1,4 @@
-/* Ashish Augustine - start*/
+
 
 @font-face {
   font-family: "RobotoLightItalic";
@@ -20,9 +20,7 @@
   margin: 0;
   font-family: "RobotoRegular";
 }
-/* Ashish Augustine - finish*/
-
-/*copied from jo - Start*/
+ 
 nav {
   background-color: #1f2937;
   font-family: "Roboto", sans-serif;
@@ -57,8 +55,7 @@ footer a {
   color: #e5e7eb;
   text-decoration: none;
 }
-
-/*copied from jo - Finish*/
+ 
 .sec1 {
   background-color: #1f2937;
   display: flex;
@@ -99,7 +96,7 @@ footer a {
 .btn:hover{
   background-color: #21498d;
 }
-/* Ashish Augustine - start */
+ 
 .quote {
   font-family: "RobotoLightItalic", sans-serif;
   background-color: #e5e7eb;
@@ -143,7 +140,7 @@ footer a {
   border-radius: 12px;
   cursor: pointer;
 }
-/* Ashish Augustine - finish*/
+ 
 
 footer {
   height: 10vh;
