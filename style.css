@@ -247,3 +247,25 @@ aside li {
   justify-content: center;
   color: #1f2937;
 }
+
+
+.callToAction {
+  display: flex;
+  background-color: #3882f6;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: white;
+}
+
+#callToActionBTN {
+  margin-left: 20vh;
+  border: 1px solid white;
+  border-radius: 12px;
+  color: black;
+  padding: 5px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
