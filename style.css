@@ -261,6 +261,7 @@ aside li {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
+  border-radius: 12px;
 }
 
 #callToActionBTN {
