@@ -16,7 +16,10 @@
   font-family: "RobotoRegular";
   src: url(fonts/Roboto/Roboto-Regular.ttf) format("truetype");
 }
-
+* {
+  margin: 0;
+  font-family: "RobotoRegular";
+}
 /* Ashish Augustine - finish*/
 
 /*copied from jo - Start*/
@@ -54,10 +57,7 @@ footer a {
   color: #e5e7eb;
   text-decoration: none;
 }
-* {
-  margin: 0;
-  font-family: "RobotoRegular";
-}
+
 /*copied from jo - Finish*/
 .sec1 {
   background-color: #1f2937;
