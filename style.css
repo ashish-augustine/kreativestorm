@@ -53,8 +53,7 @@ footer a {
   color: #e5e7eb;
   text-decoration: none;
 }
-
-/*copied from jo - Finish*/
+ 
 .sec1 {
   background-color: #1f2937;
   display: flex;
@@ -94,8 +93,7 @@ footer a {
 }
 .btn:hover {
   background-color: #21498d;
-}
-/* Ashish Augustine - start */
+} 
 .quote {
   font-family: "RobotoLightItalic", sans-serif;
   background-color: #e5e7eb;
