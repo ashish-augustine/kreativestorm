@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "RobotoLight";
-  src: url(fonts/Roboto/Roboto-Light.ttf) format("truetype");
+  src: url(./fonts/Roboto/Roboto-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "RobotoBold";
@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: "RobotoRegular";
-  src: url(fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+  src: url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
 }
 * {
   margin: 0;
