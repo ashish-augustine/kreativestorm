@@ -278,3 +278,28 @@ aside li {
   margin-top: 50px;
   margin-bottom: 40px;
 }
+.picture-list {
+  display: flex; /* Use flexbox to create a horizontal list */
+  justify-content: space-around; /* Distribute items evenly along the container */
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  margin: 10px 0; /* Margin top and bottom set to 10 pixels */
+}
+.random-info {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+/* Styling each list item (picture with text) */
+.picture-item {
+  text-align: justify;
+  max-width: 250px;
+}
+
+/* Styling the images */
+.picture-item img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  margin-bottom: 10px; /* Space between the image and text */
+}
