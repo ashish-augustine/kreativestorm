@@ -203,21 +203,7 @@ blockquote.quote {
   padding: 10px;
 }
 
-aside {
-  width: 20%;
-  padding: 15px;
-  font-size: 18px;
-  font-style: italic;
-  background-color: #e5e7eb;
-  color: #1f2937;
-}
 
-aside a,
-aside li {
-  list-style: none;
-  color: #1f2937;
-  line-height: 1.8em;
-}
 .abt {
   display: flex;
   flex-direction: column;
