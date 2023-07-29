@@ -21,9 +21,11 @@
 
 nav {
   background-color: #1f2937;
-  font-family: "Roboto", sans-serif;
+  font-family: "RobotoRegular", sans-serif;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #coDet {
@@ -35,7 +37,7 @@ nav {
   width: 300px;
   align-items: center;
   flex-grow: 1;
-  padding: 5px;
+  padding: 7px;
 }
 .navList {
   width: 500px;
@@ -177,33 +179,57 @@ footer {
 }
 
 #blogPg h2 {
-  font-size: 30px;
-  text-align: center;
+  font-size: 3em;
+  text-align: left;
   line-height: 1.5em;
+}
+
+.sec2{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.sec2 div{
+  padding: 20px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+.sec2 h3{
+  font-size: 2em;
 }
 .posts {
   display: flex;
   margin: auto;
   padding-top: 20px;
-  width: 70%;
+  width: 75%;
+}
+.posts h3{
+  font-size: 2em;
+  text-align: center;
+  padding: 7px;
 }
 .posts article {
   margin: 10px;
   padding: 10px;
   width: 500px;
   background-color: #e5e7eb;
+  text-align: justify;
 }
-
+#blogPg p{
+  word-wrap: break-word;
+}
 blockquote.quote {
-  width: 20vw;
+  width: 15vw;
   margin: auto;
-  padding: 50px 300px;
+  font-size: 20px;
+  padding: 30px 30px;
+  border-radius: 10px;
   color: #1f2937;
   word-wrap: inherit;
 }
 .blogImg {
-  height: 250px;
-  max-width: 100%;
+  height: 200px;
+  max-width: 80%;
   border-radius: 5px;
   display: block;
   margin-left: auto;
@@ -214,13 +240,26 @@ blockquote.quote {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  /* width: max-content; */
-  justify-content: space-evenly;
-  margin-top: 5px;
+  justify-content: space-between;
+  /* margin-top: 5px;
   margin-bottom: 5px;
-  padding: 10px;
+  padding: 10px; */
+}
+.blgAside {
+  width: 20%;
+  padding: 15px;
+  font-size: 18px;
+  font-style: italic;
+  background-color: #e5e7eb;
+  color: #1f2937;
 }
 
+.blgAside a,
+.blgAside li {
+  list-style: none;
+  color: #1f2937;
+  line-height: 1.8em;
+}
 .abt {
   display: flex;
   flex-direction: column;
