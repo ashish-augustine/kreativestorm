@@ -178,8 +178,22 @@ footer {
   margin: auto;
 }
 
+.sec0 {
+  width: 100vw;
+  margin: 0;
+  padding-top: 2em;
+}
+
+#blogPg h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+  padding: 10px;
+}
+
 #blogPg h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: left;
   line-height: 1.5em;
   margin: 2px;
@@ -231,9 +245,9 @@ blockquote.quote {
   word-wrap: inherit;
 }
 .blogImg {
-  height: 200px;
-  max-width: 80%;
-  border-radius: 5px;
+  height: 250px;
+  max-width: 90%;
+  border-radius: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -244,9 +258,6 @@ blockquote.quote {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  /* margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 10px; */
 }
 .blgAside {
   width: 20%;
