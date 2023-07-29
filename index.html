@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Bite of Africa</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+      /* Styling the container */
+      .picture-list {
+        display: flex; /* Use flexbox to create a horizontal list */
+        justify-content: space-around; /* Distribute items evenly along the container */
+        list-style: none; /* Remove default list styles */
+        padding: 0;
+        margin: 10px 0; /* Margin top and bottom set to 10 pixels */
+      }
+      .random-info {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+      }
+      /* Styling each list item (picture with text) */
+      .picture-item {
+        text-align: justify;
+        max-width: 250px;
+      }
+
+      /* Styling the images */
+      .picture-item img {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px;
+        margin-bottom: 10px; /* Space between the image and text */
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -22,6 +50,9 @@
           <a href="https://github.com/arsmohamed/kreativestorm-tasks" target="_blank">Contact Us</a>
         </div>
       </nav>
+    </header>
+
+    <main>
       <div class="sec1">
         <div class="htext">
           <h1 class="hmain">This website is awesome</h1>
@@ -36,9 +67,6 @@
           <img src="./images/img1.jpg" alt="Hertzoggies" class="head-img" />
         </div>
       </div>
-    </header>
-
-    <main>
       <section class="randominfo">
         <h1 class="random-info">Some Random Information.</h1>
 
