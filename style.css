@@ -111,6 +111,9 @@ footer a {
 }
 
 /* Online shopping */
+.onlineshopping {
+  margin-bottom: 70px;
+}
 .shoponline {
   padding: 2em;
   font-family: "RobotoBold", sans-serif;
