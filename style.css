@@ -136,6 +136,14 @@ footer a {
   box-sizing: border-box; /* Ensures padding is included in the item width */
 }
 /* Responsive layout */
+@media screen and (max-width: 1080px) {
+  .image-grid-item {
+    flex: 0 0 33.33%; /* Each image occupies 50% of the container width (4 images per row) */
+    padding: 15px; /* Adjust this value to set spacing between images */
+    box-sizing: border-box; /* Ensures padding is included in the item width */
+  }
+}
+
 @media screen and (max-width: 900px) {
   .image-grid-item {
     flex: 0 0 50%; /* Each image occupies 50% of the container width (4 images per row) */
