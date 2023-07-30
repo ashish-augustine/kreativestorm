@@ -136,7 +136,7 @@ footer a {
   box-sizing: border-box; /* Ensures padding is included in the item width */
 }
 /* Responsive layout */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1200px) {
   .image-grid-item {
     flex: 0 0 33.33%; /* Each image occupies 33.33% of the container width (3 images per row) */
     padding: 15px; /* Adjust this value to set spacing between images */
