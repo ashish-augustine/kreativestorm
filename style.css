@@ -194,7 +194,6 @@ footer {
 
 #blogPg {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   width: 80vw;
   margin: auto;
@@ -226,11 +225,21 @@ footer {
   flex-direction: row;
 }
 
-.sec2 div {
-  margin: 2px;
+.part1{
+  flex: 50%;
+  padding:20px;
+  text-align: justify;
+}
+.part2{
+  flex: 50%;
   padding: 20px;
   text-align: justify;
-  word-wrap: break-word;
+}
+
+@media (max-width: 800px) {
+  .sec2 {
+    flex-direction: column;
+  }
 }
 
 .sec2 h3 {
@@ -278,7 +287,6 @@ blockquote.quote {
 .blgDiv {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
 }
 .blgAside {
